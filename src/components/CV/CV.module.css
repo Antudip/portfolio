@@ -1,0 +1,25 @@
+.embed{
+    position: absolute;
+    top: 4rem;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+
+    min-width:90vw;
+    min-height: 100vh;
+}
+.container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #00000055;
+}
+
+@media (max-width:30rem) {
+    .embed{
+        min-width: 100vw;
+    }
+}

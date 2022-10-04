@@ -1,0 +1,17 @@
+.NavBar{
+    position: fixed;
+    top: 0;
+    display: flex;
+    width: 100vw;
+    justify-content: flex-end;
+    gap: 3vw;
+    align-items: center;
+    background: #cec9c5;
+    min-height: 3rem;
+}
+.sections{
+    display: flex;
+    justify-content: space-between;
+    min-width: 500px;
+    margin-right: 6vw;
+}

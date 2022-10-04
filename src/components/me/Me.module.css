@@ -1,0 +1,59 @@
+.allContainer {
+    margin: auto;
+    gap: 1rem;
+    padding: 1rem;
+    margin: 4vw;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    border-radius: 7px;
+    box-shadow: 5px 8px 22px -5px rgba(0, 0, 0, 0.89);
+    -webkit-box-shadow: 5px 8px 22px -5px rgba(0, 0, 0, 0.89);
+    -moz-box-shadow: 5px 8px 22px -5px rgba(0, 0, 0, 0.89);
+}
+
+.aboutMeContainer {
+    max-width: 40vw;
+    display: flex;
+    align-items: center;
+
+}
+
+.aboutMeContainer p {
+    text-align: left;
+    font-weight: 500;
+}
+
+.aboutMeContainer div {
+    display: flex;
+}
+
+
+.mePhoto {
+    max-width: 200px;
+    min-height: 200px;
+    margin: auto 0;
+    object-fit: cover;
+    border-radius: 100%;
+    box-shadow: 5px 8px 22px -5px rgba(0, 0, 0, 0.89);
+    -webkit-box-shadow: 5px 8px 22px -5px rgba(0, 0, 0, 0.89);
+    -moz-box-shadow: 5px 8px 22px -5px rgba(0, 0, 0, 0.89);
+}
+
+@media (max-width: 32rem) {
+    .allContainer {
+        margin: 2vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .aboutMeContainer {
+        margin: 10px;
+        max-width: 90vw;
+    }
+    .aboutMeContainer p{
+        text-align: center;
+    }
+
+}

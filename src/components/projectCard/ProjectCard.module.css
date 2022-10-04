@@ -1,0 +1,22 @@
+.card{
+    display: flex;
+    max-width: 800px;
+    min-width: 500px;
+    background-color:#ffe4c466;
+    
+    padding: 7px;
+    margin:10px;
+    border-radius: 7px;
+    box-shadow: 5px 8px 22px -5px rgba(0, 0, 0, 0.89);
+    -webkit-box-shadow: 5px 8px 22px -5px rgba(0, 0, 0, 0.89);
+    -moz-box-shadow: 5px 8px 22px -5px rgba(0, 0, 0, 0.89);
+}
+.nameAnDesc{
+    gap:50px;
+    display: block;
+}
+.img{
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+}

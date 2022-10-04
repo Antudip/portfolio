@@ -1,0 +1,13 @@
+
+
+.title{
+    margin-left:4vw;
+    margin-top: 10vh;
+    margin-bottom: 7vh;
+}
+.title h1{
+    font-size: clamp(2rem,1rem + 3vw,3rem);
+}
+.title h2{
+    font-size: clamp(1rem,1rem+ 3vw,2rem);
+}

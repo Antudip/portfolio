@@ -1,0 +1,32 @@
+
+.ContactMe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:2rem;
+    width:50vw;
+    min-width: 40rem;
+    min-height:3rem;
+    margin: 0 auto;
+    border-top-left-radius:7px;
+    border-top-right-radius:7px;
+    background-color: antiquewhite;
+}
+.icon{
+    color: black;
+    transition: .2s;
+}
+
+
+.link:hover{
+    color:#0e76a8;
+}
+.git:hover{
+    color:#6563FF;
+}
+.mail:hover{
+    color:#EA4335;
+}
+.wpp:hover{
+    color:#00A884;
+}
